@@ -1,0 +1,60 @@
+/* Custom styles for user details card */
+
+.user-card {
+    background: linear-gradient(to right, #ffffff, #f0f4f8);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-card h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2d3748;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.user-detail-label {
+    font-weight: 600;
+    color: #1a202c;
+}
+
+.user-role {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.user-role.admin {
+    background-color: #d6bcfa;
+    color: #4c1d95;
+}
+
+.user-role.user {
+    background-color: #9ae6b4;
+    color: #22543d;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #3182ce;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background-color: #2b6cb0;
+}
