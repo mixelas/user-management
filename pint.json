@@ -1,0 +1,16 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "fully_qualified_strict_types": false,
+        "ordered_imports": false,
+        "class_attributes_separation": false,
+        "single_line_after_imports": false,
+        "method_chaining_indentation": false,
+        "array_indentation": false,
+        "unary_operator_spaces": false,
+        "blank_line_before_statement": false,
+        "no_superfluous_phpdoc_tags": false,
+        "no_extra_blank_lines": false,
+        "no_unused_imports": false
+    }
+}
