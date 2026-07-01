@@ -45,6 +45,8 @@ jobs:
           cache: composer
 
       - name: Install Composer dependencies
+        env:
+          COMPOSER_NO_BLOCKING: 1
         run: composer install --no-interaction --no-progress --prefer-dist
 
       - name: Prepare application
